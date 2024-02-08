@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button.selected{
+  background-color: green;
+  color:#fff;
+}
+
+table {
+  border: 1px solid #333;
+
+}
+
+td,tr{
+  border: 1px solid #333;
+}
+form{
+  display: flex;
+  padding: 20px 0;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
